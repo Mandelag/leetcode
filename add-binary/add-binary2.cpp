@@ -1,13 +1,6 @@
 #include <iostream>
 
 
-// all software engineering
-// 1. unit tests, refactor, after POC finished. make sure set clear expectations that new development will delay. if
-// not, prepare for hiring new engineer.
-// 2. integration tests first, before unit tests. For service type development.
-// 2a. For core library / algorithm / important function, unit tests first & benchmark, and metrics collection
-// (instrumentation), and debugger, profiling, tracing, etc..
-// difference between POC development and not is ONLY the level of care from engineer (maintainer). only that.., all else are secondary.
 int main(int argc, char ** argv) {
     std::string a{"010001"}; // both are not const, since we will modify them in our algorithm
     std::string b{"111101"};
